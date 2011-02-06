@@ -1,0 +1,7 @@
+index:
+    pattern:  /
+    defaults: { _controller: IndexController }
+    
+index.index:
+    pattern:  /index
+    defaults: { _controller: IndexController }

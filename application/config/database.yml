@@ -1,0 +1,15 @@
+doctrine.dbal:
+    default_connection:       development
+    connections:
+        production:
+            dbname:           doctrine
+            user:             root
+            password:         null
+            host:             localhost
+            driver:           pdo_mysql
+        development:
+            dbname:           doctrine
+            user:             root
+            password:         null
+            host:             localhost
+            driver:           pdo_mysql
